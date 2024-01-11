@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: gcr.io/heptio-images/ks-guestbook-demo
+  repository: 448986021170.dkr.ecr.ap-northeast-2.amazonaws.com/my-nest:lastest
   tag: 0.1
   pullPolicy: IfNotPresent
 
