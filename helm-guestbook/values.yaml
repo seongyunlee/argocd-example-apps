@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: gcr.io/amazing-sunset-409005/my-nest-app
+  repository: us-central1-docker.pkg.dev/amazing-sunset-409005/clouddemo/nest-image
   tag: lastest
   pullPolicy: IfNotPresent
 
