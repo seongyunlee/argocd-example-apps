@@ -20,7 +20,7 @@ spec:
         app: {{ template "helm-guestbook.name" . }}
         release: {{ .Release.Name }}
     spec:
-    imagePullSecret:
+      imagePullSecrets:
       - name: secret-registry
       containers:
         - name: {{ .Chart.Name }}
