@@ -5,10 +5,9 @@
 replicaCount: 3
 
 image:
-  repository: 448986021170.dkr.ecr.ap-northeast-2.amazonaws.com/nest-app
+  repository: gcr.io/amazing-sunset-409005/my-nest-app
   tag: lastest
   pullPolicy: IfNotPresent
-  imagePullSecrect: ewoJImF1dGhzIjogewoJCSI0NDg5ODYwMjExNzAuZGtyLmVjci5hcC1ub3J0aGVhc3QtMi5hbWF6b25hd3MuY29tIjoge30KCX0sCgkiY3JlZHNTdG9yZSI6ICJkZXNrdG9wIiwKCSJjdXJyZW50Q29udGV4dCI6ICJkZXNrdG9wLWxpbnV4Igp9
 
 containerPort: 80
 
