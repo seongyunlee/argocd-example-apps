@@ -5,7 +5,7 @@
 replicaCount: 3
 image:
   repository: us-central1-docker.pkg.dev/amazing-sunset-409005/clouddemo/nest-image
-  tag: /snap/bin:/home/runner/.local/bin:/opt/pipx_bin:/home/runner/.cargo/bin:/home/runner/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/runner/.dotnet/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  tag: fe55d65bdb194602ed1444d8cb7f54168950123f
   pullPolicy: IfNotPresent
 containerPort: 80
 service:
