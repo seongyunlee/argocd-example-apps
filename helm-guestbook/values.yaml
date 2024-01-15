@@ -5,7 +5,7 @@
 replicaCount: 3
 image:
   repository: us-central1-docker.pkg.dev/amazing-sunset-409005/clouddemo/nest-image
-  tag: fe55d65bdb194602ed1444d8cb7f54168950123f
+  tag: af81c84ff64f42564dd1f3510707cb9e8b0d3580
   pullPolicy: IfNotPresent
 containerPort: 80
 service:
